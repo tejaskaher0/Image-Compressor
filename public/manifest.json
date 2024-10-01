@@ -1,0 +1,6 @@
+{
+  "name": "Image Compressor",
+  "short_name": "ImgCompress",
+  "description": "Compress and enhance your images easily",
+  // ... other manifest properties
+}

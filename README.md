@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Image Compressor
+
+A web application for compressing and enhancing images easily.
+
+## Features
+
+- Drag and drop image upload
+- Compression quality adjustment
+- Image enhancement controls (brightness, contrast, saturation)
+- Download compressed and original images
 
 ## Getting Started
 

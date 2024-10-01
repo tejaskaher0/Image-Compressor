@@ -2,7 +2,7 @@
 
 import { useState, useCallback, useEffect } from 'react';
 import Image from 'next/image';
-import { useDropzone } from 'react-dropzone';
+import Dropzone from '../components/Dropzone';
 import imageCompression from 'browser-image-compression';
 import styles from './page.module.css';
 
@@ -20,8 +20,6 @@ export default function Home() {
     setOriginalImage(file);
     await compressImage(file, compressionQuality);
   }, [compressionQuality]);
-
-  const { getRootProps, getInputProps, isDragActive } = useDropzone({ onDrop, accept: 'image/*' });
 
   const applyEnhancements = async (file) => {
     return new Promise((resolve) => {
@@ -105,17 +103,7 @@ export default function Home() {
       </header>
 
       <main className={styles.main}>
-        <div {...getRootProps()} className={styles.dropzone}>
-          <input {...getInputProps()} />
-          {isDragActive ? (
-            <p>Drop the image here ...</p>
-          ) : (
-            <>
-              <p>Drag & drop an image here, or click to select one</p>
-              <p className={styles.supportedFormats}>Supported formats: JPEG, PNG, WEBP</p>
-            </>
-          )}
-        </div>
+        <Dropzone onDrop={onDrop} />
 
         {originalImage && (
           <div className={styles.imageContainer}>

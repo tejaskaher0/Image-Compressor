@@ -1,0 +1,13 @@
+.dropzone {
+  /* Add your dropzone styles here */
+  border: 2px dashed #cccccc;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.supportedFormats {
+  font-size: 0.8em;
+  color: #666666;
+}

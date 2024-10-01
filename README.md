@@ -1,49 +1,56 @@
-<<<<<<< HEAD
-# Image Compressor
+# Image Compressor README
 
-A web application for compressing and enhancing images easily.
+## Overview
+
+**Image Compressor** is a web application designed to easily compress and enhance images. It offers a user-friendly interface with essential features for image manipulation.
 
 ## Features
 
-- Drag and drop image upload
-- Compression quality adjustment
-- Image enhancement controls (brightness, contrast, saturation)
-- Download compressed and original images
+- **Drag and Drop Image Upload**: Easily upload images by dragging and dropping them into the application.
+- **Compression Quality Adjustment**: Users can adjust the quality of the compression to balance between file size and image quality.
+- **Image Enhancement Controls**: Modify brightness, contrast, and saturation to improve image appearance.
+- **Download Options**: Users can download both compressed and original images.
 
 ## Getting Started
 
-First, run the development server:
+To run the development server, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Install Dependencies**: Make sure you have Node.js installed. If not, download it from the official Node.js website.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Run the Development Server**:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. **Access the Application**: Open http://localhost:3000 in your browser to view the application.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. **Editing the Application**: You can start editing the page by modifying `app/page.js`. The page will auto-update as you edit the file.
 
-## Learn More
+## Font Optimization
 
-To learn more about Next.js, take a look at the following resources:
+This project utilizes `next/font` to automatically optimize and load Geist, a new font family for Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Learning Resources
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To learn more about Next.js, consider exploring these resources:
 
-## Deploy on Vercel
+- [Next.js Documentation](https://nextjs.org/docs) - Comprehensive guide on Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - An interactive tutorial for getting started with Next.js.
+- [Next.js GitHub Repository](https://github.com/vercel/next.js) - Check out the source code, contribute, and provide feedback.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# Image-Compressor
->>>>>>> b24e9aaaefd817dcc5a85d71bd2d13127f6f012a
+The easiest way to deploy your Next.js app is through Vercel, the platform created by the same team behind Next.js. For detailed deployment instructions, refer to the [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying).
+
+### Deployment Steps:
+
+1. Create an account on Vercel if you don't have one.
+2. Import your project into Vercel by selecting your local project folder.
+3. Review recommended settings provided by Vercel and click "Deploy."
+4. Once deployed, Vercel will provide a unique URL for accessing your application live.
